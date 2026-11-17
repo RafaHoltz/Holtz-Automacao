@@ -1,470 +1,478 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Holtz – Engenharia em HVAC-R, Automação e Controle Industrial</title>
-  <meta name="description"
-    content="Holtz: especialistas em HVAC-R industrial e comercial, automação, instrumentação e controle industrial em Porto Alegre. Engenharia com CREA, normas ABNT/ASHRAE." />
+  <title>Holtz Soluções – Engenharia Industrial, Energia e Tecnologia</title>
+  <meta name="description" content="Holtz Soluções: engenharia mecânica, HVAC-R e tubulação industrial, automação e controle (CLP, DCS Siemens PCS neo, SCADA), energias renováveis e software industrial. Porto Alegre, RS." />
+  <link rel="canonical" href="https://holtzsolucoes.com.br/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Holtz Soluções – Engenharia Industrial, Energia e Tecnologia" />
+  <meta property="og:description" content="Soluções integradas em engenharia, automação, sistemas térmicos, energias renováveis e tecnologia industrial." />
+  <meta property="og:url" content="https://holtzsolucoes.com.br/" />
+  <meta property="og:image" content="https://holtzsolucoes.com.br/images/hvac_hero_bg.jpg" />
+  <meta property="og:locale" content="pt_BR" />
+  <link rel="alternate" hreflang="pt-BR" href="https://holtzsolucoes.com.br/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-  <!-- ===================== HEADER ===================== -->
-  <header id="header" class="header">
+  <!-- HEADER -->
+  <header class="header" id="header">
     <div class="container header-inner">
-      <a href="#inicio" class="logo" id="logo-link">
-        <img src="images/logo_holtz.png" alt="Holtz – Soluções em Automação e HVAC-R" class="logo-img" />
-      </a>
-      <nav class="nav" id="main-nav">
+      <a href="#inicio" class="logo"><img src="images/logo_holtz.png" alt="Holtz Soluções" class="logo-img" /></a>
+      <nav class="nav" id="main-nav" aria-label="Principal">
         <ul class="nav-list">
           <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#sobre-mim" class="nav-link">Quem sou eu</a></li>
           <li><a href="#sobre" class="nav-link">Sobre</a></li>
           <li><a href="#solucoes" class="nav-link">Soluções</a></li>
-          <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
-          <li><a href="#sustentabilidade" class="nav-link">Sustentabilidade</a></li>
-          <li><a href="#treinamentos" class="nav-link">Treinamentos</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
         </ul>
+        <a href="#contato" class="btn btn-primary btn-sm nav-cta-mobile">Solicitar proposta</a>
       </nav>
-      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+      <div class="header-right">
+        <a href="#contato" class="btn btn-primary btn-sm">Solicitar proposta</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
-  <!-- ===================== HERO ===================== -->
-  <section id="inicio" class="hero">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <div class="hero-text">
-        <h1 class="hero-title">Engenharia de Automação Industrial e HVAC&#8209;R</h1>
-        <p class="hero-subtitle"><strong>Especialistas em automação e HVAC Industrial em Porto Alegre e região
-            metropolitana</strong></p>
-        <p class="hero-desc">Projetos de HVAC-R industrial e comercial, automação, instrumentação e controle para
-          ambientes&nbsp;críticos.</p>
-        <p class="hero-desc">Atuamos com foco em eficiência energética, confiabilidade operacional e conformidade
-          técnica.</p>
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="container hero-content">
+        <span class="hero-eyebrow">Holtz Soluções · Porto Alegre, RS</span>
+        <h1 class="hero-title">Engenharia Industrial, Energia e Tecnologia.</h1>
+        <p class="hero-subtitle">Soluções integradas em engenharia, automação, sistemas térmicos, energias renováveis e tecnologia industrial.</p>
         <div class="hero-actions">
-          <a href="https://wa.me/5551984688201" target="_blank" id="cta-orcamento" class="btn btn-primary">Solicitar
-            orçamento</a>
-          <a href="https://wa.me/5551984688201" target="_blank" id="cta-especialista" class="btn btn-outline">Falar com
-            um especialista</a>
+          <a href="#solucoes" class="btn btn-primary">Conheça nossas soluções</a>
+          <a href="#contato" class="btn btn-outline">Solicitar uma proposta</a>
         </div>
       </div>
-    </div>
-    <!-- Trust bar -->
-    <div class="trust-bar">
-      <div class="container trust-bar-inner">
-        <div class="trust-item">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-            <circle cx="16" cy="16" r="14" stroke="#8B1A1A" stroke-width="2" />
-            <path d="M10 16l4 4 8-8" stroke="#8B1A1A" stroke-width="2.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </svg>
-          <span>Projetos de automação industrial</span>
-        </div>
-        <div class="trust-item">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-            <rect x="4" y="8" width="24" height="18" rx="3" stroke="#8B1A1A" stroke-width="2" />
-            <path d="M4 14h24" stroke="#8B1A1A" stroke-width="2" />
-            <path d="M10 20h4M18 20h4" stroke="#8B1A1A" stroke-width="2" stroke-linecap="round" />
-          </svg>
-          <span>Projetos de HVAC-R Industrial e Comercial</span>
-        </div>
-        <div class="trust-item">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-            <rect x="6" y="6" width="8" height="8" rx="1" stroke="#8B1A1A" stroke-width="2" />
-            <rect x="18" y="6" width="8" height="8" rx="1" stroke="#8B1A1A" stroke-width="2" />
-            <rect x="6" y="18" width="8" height="8" rx="1" stroke="#8B1A1A" stroke-width="2" />
-            <rect x="18" y="18" width="8" height="8" rx="1" stroke="#8B1A1A" stroke-width="2" />
-            <circle cx="16" cy="16" r="3" fill="#8B1A1A" />
-          </svg>
-          <span>Projetos de sistemas de controle Industrial</span>
-        </div>
-        <div class="trust-item">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-            <rect x="4" y="4" width="24" height="28" rx="3" stroke="#8B1A1A" stroke-width="2" />
-            <path d="M9 12h14M9 17h14M9 22h8" stroke="#8B1A1A" stroke-width="2" stroke-linecap="round" />
-          </svg>
-          <span>Projetos de eficiência energética</span>
+      <div class="hero-bar">
+        <div class="container hero-bar-inner">
+          <a href="#solucoes" class="hero-bar-item" data-tab="mecanica"><span>01</span>Engenharia Mecânica, HVAC-R e Tubulação</a>
+          <a href="#solucoes" class="hero-bar-item" data-tab="automacao"><span>02</span>Automação e Controle Industrial</a>
+          <a href="#solucoes" class="hero-bar-item" data-tab="renovaveis"><span>03</span>Energias Renováveis</a>
+          <a href="#solucoes" class="hero-bar-item" data-tab="software"><span>04</span>Software e Tecnologia Industrial</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===================== SOBRE ===================== -->
-  <section id="sobre" class="section about-section">
-    <div class="container about-grid">
-      <div class="about-text-col">
-        <span class="section-tag">Sobre nós</span>
-        <h2 class="section-title">Especialistas em Engenharia HVAC e Automação Industrial</h2>
-        <p>A Holtz é uma empresa de engenharia sediada em Porto Alegre, especializada no desenvolvimento de projetos de
-          HVAC-R industrial e comercial, automação, instrumentação e controle e eficiência energética.</p>
-        <p>Atuamos na concepção, especificação e integração de sistemas térmicos e de controle para plantas industriais,
-          subestações, ambientes comerciais e aplicações técnicas críticas.</p>
-        <p>Entregamos soluções sob medida para empresas que exigem alto padrão técnico, eficiência energética e
-          confiabilidade operacional.</p>
-      </div>
-      <div class="about-image-col">
-        <div class="about-img-wrapper">
-          <img src="images/hvac_hero_bg.png" alt="Equipamentos industriais HVAC" class="about-img" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- ===================== SOLUÇÕES ===================== -->
-  <section id="solucoes" class="section solucoes-section">
-    <div class="container">
-      <div class="section-heading centered">
-        <span class="section-tag">O que fazemos</span>
-        <h2 class="section-title">Nossas Soluções</h2>
-      </div>
-      <div class="solucoes-grid">
-
-        <div class="solucao-card" id="card-hvac">
-          <div class="solucao-img-wrap">
-            <img src="images/hvac_solution_card.png" alt="HVAC-R Industrial e Comercial" />
-          </div>
-          <div class="solucao-body">
-            <h3>HVAC-R Industrial e Comercial</h3>
-            <ul>
-              <li>Resfriamento de processos industriais</li>
-              <li>Controle térmico de equipamentos</li>
-              <li>Estabilidade térmica de linhas críticas</li>
-              <li>Climatização de subestações e salas elétricas</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="solucao-card" id="card-automacao">
-          <div class="solucao-img-wrap">
-            <img src="images/automation_solution_card.png" alt="Automação e Controle" />
-          </div>
-          <div class="solucao-body">
-            <h3>Automação e Controle</h3>
-            <ul>
-              <li>Programação de CLPs</li>
-              <li>Desenvolvimento de IHMs</li>
-              <li>Sistemas supervisórios (SCADA)</li>
-              <li>Integração com sistemas DCS</li>
-              <li>Implementação de malhas de controle</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="solucao-card" id="card-energia">
-          <div class="solucao-img-wrap">
-            <img src="images/energy_solution_card_v2.png" alt="Eficiência Energética" />
-          </div>
-          <div class="solucao-body">
-            <h3>Eficiência Energética</h3>
-            <ul>
-              <li>Otimização de consumo energético</li>
-              <li>Estratégias de controle inteligente</li>
-              <li>Monitoramento de desempenho</li>
-              <li>Redução de perdas térmicas</li>
-              <li>Integração com fontes renováveis</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="solucao-card" id="card-consultoria">
-          <div class="solucao-img-wrap">
-            <img src="images/consulting_solution_card.png" alt="Consultoria Técnica" />
-          </div>
-          <div class="solucao-body">
-            <h3>Consultoria Técnica</h3>
-            <ul>
-              <li>Diagnóstico de sistemas HVAC</li>
-              <li>Revisão técnica de projetos</li>
-              <li>Adequação normativa</li>
-              <li>Otimização de sistemas existentes</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== DIFERENCIAIS ===================== -->
-  <section id="diferenciais" class="section diferenciais-section">
-    <div class="container">
-      <div class="section-heading centered">
-        <h2 class="section-title">Diferenciais Estratégicos</h2>
-      </div>
-      <div class="diferenciais-grid">
-
-        <div class="diferencial-item" id="dif-crea">
-          <div class="diferencial-icon">
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
-              <circle cx="28" cy="28" r="26" stroke="#8B1A1A" stroke-width="2" />
-              <path d="M28 14c-7.7 0-14 6.3-14 14s6.3 14 14 14" stroke="#8B1A1A" stroke-width="2"
-                stroke-linecap="round" />
-              <path d="M28 14c7.7 0 14 6.3 14 14s-6.3 14-14 14" stroke="#8B1A1A" stroke-width="2" stroke-linecap="round"
-                stroke-dasharray="4 4" />
-              <path d="M22 28l4 4 8-8" stroke="#8B1A1A" stroke-width="2.5" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-          </div>
-          <h4>Engenharia conduzida por profissional com CREA</h4>
-        </div>
-
-        <div class="diferencial-item" id="dif-integracao">
-          <div class="diferencial-icon">
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
-              <circle cx="14" cy="28" r="8" stroke="#8B1A1A" stroke-width="2" />
-              <circle cx="42" cy="28" r="8" stroke="#8B1A1A" stroke-width="2" />
-              <path d="M22 24h12M22 32h12" stroke="#8B1A1A" stroke-width="2" stroke-linecap="round" />
-              <path d="M14 20V14M14 42v-6M42 20V14M42 42v-6" stroke="#8B1A1A" stroke-width="1.5"
-                stroke-linecap="round" />
-            </svg>
-          </div>
-          <h4>Integração completa entre HVAC e automação</h4>
-        </div>
-
-        <div class="diferencial-item" id="dif-software">
-          <div class="diferencial-icon">
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
-              <rect x="10" y="14" width="36" height="28" rx="4" stroke="#8B1A1A" stroke-width="2" />
-              <path d="M20 28l4-4 4 4 8-8" stroke="#8B1A1A" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" />
-              <path d="M22 36h12" stroke="#8B1A1A" stroke-width="2" stroke-linecap="round" />
-              <path d="M28 42v4M20 46h16" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round" />
-            </svg>
-          </div>
-          <h4>Desenvolvimento próprio de software industrial</h4>
-        </div>
-
-        <div class="diferencial-item" id="dif-energia">
-          <div class="diferencial-icon">
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
-              <path d="M28 10v6M28 40v6M10 28h6M40 28h6" stroke="#8B1A1A" stroke-width="2" stroke-linecap="round" />
-              <circle cx="28" cy="28" r="10" stroke="#8B1A1A" stroke-width="2" />
-              <path d="M30 22l-6 8h8l-6 8" stroke="#8B1A1A" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-          </div>
-          <h4>Foco real em eficiência energética</h4>
-        </div>
-
-        <div class="diferencial-item" id="dif-criticos">
-          <div class="diferencial-icon">
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
-              <path d="M28 10l16 6v12c0 9-8 15-16 18C20 43 12 37 12 28V16l16-6z" stroke="#8B1A1A" stroke-width="2"
-                stroke-linejoin="round" />
-              <path d="M22 28l4 4 8-8" stroke="#8B1A1A" stroke-width="2.5" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-          </div>
-          <h4>Atuação em ambientes críticos</h4>
-        </div>
-
-        <div class="diferencial-item" id="dif-normativa">
-          <div class="diferencial-icon">
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
-              <rect x="10" y="8" width="30" height="40" rx="3" stroke="#8B1A1A" stroke-width="2" />
-              <path d="M16 18h18M16 24h18M16 30h12" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round" />
-              <circle cx="38" cy="40" r="8" fill="white" stroke="#8B1A1A" stroke-width="2" />
-              <path d="M34 40l3 3 6-6" stroke="#8B1A1A" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-          </div>
-          <h4>Alto padrão técnico e conformidade normativa</h4>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== SUSTENTABILIDADE ===================== -->
-  <section id="sustentabilidade" class="section sust-section">
-    <div class="container">
-      <div class="section-heading centered">
-        <span class="section-tag">Responsabilidade técnica</span>
-        <h2 class="section-title">Conformidade e Sustentabilidade</h2>
-      </div>
-      <div class="sust-grid">
-        <div class="sust-card sust-card--dark" id="card-conformidade">
-          <h3>Conformidade Técnica</h3>
-          <p>Projetos desenvolvidos conforme:</p>
-          <p class="sust-highlight">Normas ABNT · Diretrizes ASHRAE</p>
-          <hr class="sust-divider" />
-          <p class="sust-label">GARANTINDO:</p>
-          <p class="sust-items">Segurança tênica · Desempenho térmico · Confiabilidade Operacional</p>
-        </div>
-        <div class="sust-card sust-card--green" id="card-eficiencia">
-          <h3>Eficiência Energética e Sustentabilidade</h3>
-          <p>Projetos orientados à redução de consumo energético e impacto ambiental.</p>
-          <hr class="sust-divider" />
-          <p class="sust-label">Inclui:</p>
-          <p class="sust-items">Dimensionamento técnico otimizado · Monitoramento energético · Redução de perdas ·
-            Integração com energias renováveis</p>
-          <p class="sust-leed">Possibilidade de alinhamento com certificações como <strong>LEED</strong>.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== TREINAMENTOS ===================== -->
-  <section id="treinamentos" class="section trein-section">
-    <div class="container trein-grid">
-      <div class="trein-img-col">
-        <div class="trein-img-wrapper">
-          <img src="images/training_section_photo.png" alt="Treinamento técnico industrial" class="trein-img" />
-        </div>
-      </div>
-      <div class="trein-text-col">
+    <!-- QUEM SOU EU -->
+    <section id="sobre-mim" class="section">
+      <div class="container stack-32">
         <div class="section-heading">
-          <h2 class="section-title-underline">Treinamentos Técnicos</h2>
-          <div class="title-line"></div>
+          <span class="section-tag">Experiência e capacidade técnica</span>
+          <h2 class="section-title">Quem sou eu</h2>
         </div>
-        <p class="trein-subtitle">Capacitação para equipes de:</p>
-        <p class="trein-teams"><strong>Manutenção · Engenharia · Operação</strong></p>
-        <p class="trein-desc">Treinamentos personalizados com abordagem prática e alinhamento às normas técnicas.</p>
-        <div class="trein-topics">
-          <div class="trein-topic-item">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <circle cx="10" cy="10" r="9" stroke="#8B1A1A" stroke-width="1.5" />
-              <path d="M6 10l3 3 5-5" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-            <span>Fundamentos de HVAC-R industrial</span>
+        <div class="founder">
+          <div class="founder-id">
+            <div class="founder-photo"><picture><source srcset="images/rafael_holtz_biometano.webp" type="image/webp"><img src="images/rafael_holtz_biometano.jpg" alt="Rafael Holtz em usina de biometano" /></picture></div>
+            <div class="founder-name">
+              <strong>Rafael Holtz</strong>
+              <span class="founder-role">Fundador e engenheiro responsável</span>
+            </div>
           </div>
-          <div class="trein-topic-item">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <circle cx="10" cy="10" r="9" stroke="#8B1A1A" stroke-width="1.5" />
-              <path d="M6 10l3 3 5-5" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-            <span>Automação e sistemas de controle</span>
-          </div>
-          <div class="trein-topic-item">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <circle cx="10" cy="10" r="9" stroke="#8B1A1A" stroke-width="1.5" />
-              <path d="M6 10l3 3 5-5" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-            <span>Eficiência energética aplicada</span>
-          </div>
-          <div class="trein-topic-item">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <circle cx="10" cy="10" r="9" stroke="#8B1A1A" stroke-width="1.5" />
-              <path d="M6 10l3 3 5-5" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-            <span>Normas ABNT e ASHRAE</span>
+          <div class="founder-info">
+            <div class="block">
+              <span class="label">Formação</span>
+              <ul class="plain-list">
+                <li>Engenharia de Controle e Automação Industrial</li>
+                <li>Pós-graduação em Energias Renováveis</li>
+                <li>Engenharia Mecânica <span class="muted">(em andamento)</span></li>
+              </ul>
+            </div>
+            <div class="block">
+              <span class="label">Experiência</span>
+              <p>Desde 2018 em engenharia industrial, HVAC-R, automação e comissionamento. Desenvolvimento de sistemas DCS Siemens PCS neo para plantas de biogás e biometano, além de sistemas HVAC-R, BMS e automação industrial.</p>
+            </div>
+            <div class="block">
+              <span class="label">Tecnologias</span>
+              <div class="chips"><span class="tag">Siemens PCS neo</span><span class="tag">PCS 7</span><span class="tag">Siemens S7</span><span class="tag">Rockwell</span><span class="tag">Niagara 4</span><span class="tag">OPC UA</span><span class="tag">PROFINET</span><span class="tag">Modbus</span><span class="tag">BACnet</span></div>
+            </div>
+            <p class="disclaimer">Experiência profissional do fundador, incluindo projetos realizados como colaborador de outras organizações. Não representa projetos contratados pela Holtz Soluções.</p>
           </div>
         </div>
-        <a href="https://wa.me/5551984688201" target="_blank" id="cta-treinamento" class="btn btn-primary">Solicitar
-          treinamento</a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===================== CTA FINAL ===================== -->
-  <section class="cta-section" id="cta-final">
-    <div class="cta-overlay"></div>
-    <div class="container cta-content">
-      <h2>Precisa de um projeto HVAC<br />ou automação industrial?</h2>
-      <p>Fale com um especialista e receba uma análise técnica para sua aplicação.</p>
-      <div class="cta-actions">
-        <a href="https://wa.me/5551984688201" target="_blank" id="cta-final-orcamento" class="btn btn-primary">Solicitar
-          orçamento</a>
-        <a href="https://wa.me/5551984688201" target="_blank" id="cta-final-engenheiro"
-          class="btn btn-outline-white">Falar com um engenheiro</a>
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+      <div class="container about">
+        <div class="about-text">
+          <span class="section-tag">Sobre a Holtz Soluções</span>
+          <h2 class="section-title">Engenharia aplicada, do estudo do problema à implementação.</h2>
+          <p class="lead">Desenvolvemos soluções integradas de engenharia industrial, automação, energia e tecnologia, combinando conhecimento técnico e experiência de campo para transformar desafios operacionais em soluções eficientes e confiáveis.</p>
+          <ul class="about-points">
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="#8B1A1A" stroke-width="1.5"/><path d="M6 10l3 3 5-5" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Engenharia industrial aplicada</span></li>
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="#8B1A1A" stroke-width="1.5"/><path d="M6 10l3 3 5-5" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Integração entre disciplinas</span></li>
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="#8B1A1A" stroke-width="1.5"/><path d="M6 10l3 3 5-5" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Desenvolvimento de projetos e soluções</span></li>
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="#8B1A1A" stroke-width="1.5"/><path d="M6 10l3 3 5-5" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Experiência técnica de campo</span></li>
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="#8B1A1A" stroke-width="1.5"/><path d="M6 10l3 3 5-5" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Startup e comissionamento</span></li>
+            <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="#8B1A1A" stroke-width="1.5"/><path d="M6 10l3 3 5-5" stroke="#8B1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Aplicações industriais e rurais</span></li>
+          </ul>
+          <a href="#sobre-mim" class="link-underline">Conheça a experiência técnica</a>
+        </div>
+        <div class="about-img">
+          <picture><source srcset="images/training_section_photo.webp" type="image/webp"><img src="images/training_section_photo.jpg" alt="Ambiente de capacitação técnica em instalações industriais" loading="lazy" /></picture>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===================== FOOTER ===================== -->
+    <!-- SOLUÇÕES -->
+    <section id="solucoes" class="section section--gray">
+      <div class="container">
+        <div class="section-head-row">
+          <div class="section-heading">
+            <span class="section-tag">O que fazemos</span>
+            <h2 class="section-title">Nossas Soluções</h2>
+          </div>
+          <p class="section-intro">Quatro competências da Holtz Soluções, que podem atuar de forma independente ou integrada no mesmo projeto.</p>
+        </div>
+        <div class="sol">
+          <div class="sol-tabs" role="tablist" aria-label="Áreas de solução">
+            <button class="sol-tab is-active" id="tab-mecanica" role="tab" aria-selected="true" aria-controls="painel-mecanica" data-tab="mecanica">
+              <span class="sol-tab-num">01</span>
+              <span class="sol-tab-text"><strong>Engenharia Mecânica, HVAC-R e Tubulação Industrial</strong><span>Sistemas térmicos, climatização, utilidades e redes industriais.</span></span>
+            </button>
+            <button class="sol-tab" id="tab-automacao" role="tab" aria-selected="false" aria-controls="painel-automacao" data-tab="automacao">
+              <span class="sol-tab-num">02</span>
+              <span class="sol-tab-text"><strong>Automação e Controle Industrial</strong><span>CLP, DCS, SCADA, instrumentação e comissionamento.</span></span>
+            </button>
+            <button class="sol-tab" id="tab-renovaveis" role="tab" aria-selected="false" aria-controls="painel-renovaveis" data-tab="renovaveis">
+              <span class="sol-tab-num">03</span>
+              <span class="sol-tab-text"><strong>Energias Renováveis</strong><span>Estudos, projetos e integração de plantas e sistemas energéticos.</span></span>
+            </button>
+            <button class="sol-tab" id="tab-software" role="tab" aria-selected="false" aria-controls="painel-software" data-tab="software">
+              <span class="sol-tab-num">04</span>
+              <span class="sol-tab-text"><strong>Software e Tecnologia Industrial</strong><span>Sistemas web, monitoramento, dashboards e dados industriais.</span></span>
+            </button>
+          </div>
+          <div class="sol-panels">
+        <article class="sol-panel" id="painel-mecanica" role="tabpanel" aria-labelledby="tab-mecanica">
+          <div class="sol-media">
+            <picture><source srcset="images/hvac_solution_card.webp" type="image/webp"><img src="images/hvac_solution_card.jpg" alt="Engenharia Mecânica, HVAC-R e Tubulação Industrial" loading="lazy" /></picture>
+            <div class="sol-media-overlay"></div>
+            <div class="sol-media-title"><span>01</span><h3>Engenharia Mecânica, HVAC-R e Tubulação Industrial</h3></div>
+          </div>
+          <div class="sol-body">
+            <p class="sol-desc">Projeto e integração de sistemas térmicos, climatização e redes de utilidades para plantas industriais, subestações e ambientes comerciais, com acompanhamento até o startup.</p>
+            <div class="block">
+              <span class="label">Serviços</span>
+              <ul class="sol-services">
+                <li>Projetos de climatização</li>
+                <li>Refrigeração industrial</li>
+                <li>Chillers e sistemas de água gelada</li>
+                <li>VRF/VRV</li>
+                <li>Unidades de tratamento de ar</li>
+                <li>Ventilação e exaustão</li>
+                <li>Sistemas térmicos</li>
+                <li>Sistemas de bombeamento</li>
+                <li>Tubulação industrial</li>
+                <li>Redes hidráulicas industriais</li>
+                <li>Sistemas de utilidades</li>
+                <li>Integração de equipamentos</li>
+                <li>Startup e comissionamento</li>
+              </ul>
+            </div>
+            <div class="block">
+              <span class="label">Exemplos de aplicação</span>
+              <div class="chips"><span class="chip">Climatização de subestações e salas elétricas</span><span class="chip">Resfriamento de processos</span><span class="chip">Redes de utilidades industriais</span></div>
+            </div>
+            <div class="sol-actions">
+              <a href="#contato" class="btn btn-primary btn-sm" data-area="Engenharia Mecânica e HVAC-R">Solicitar proposta técnica</a>
+            </div>
+          </div>
+        </article>
+        <article class="sol-panel" id="painel-automacao" role="tabpanel" aria-labelledby="tab-automacao" hidden>
+          <div class="sol-media">
+            <picture><source srcset="images/automation_solution_card.webp" type="image/webp"><img src="images/automation_solution_card.jpg" alt="Automação e Controle Industrial" loading="lazy" /></picture>
+            <div class="sol-media-overlay"></div>
+            <div class="sol-media-title"><span>02</span><h3>Automação e Controle Industrial</h3></div>
+          </div>
+          <div class="sol-body">
+            <p class="sol-desc">Desenvolvimento de lógica, supervisão e integração de sistemas de controle, da especificação da instrumentação aos testes FAT/SAT e ao comissionamento em campo.</p>
+            <div class="block">
+              <span class="label">Serviços</span>
+              <ul class="sol-services">
+                <li>Programação CLP/PLC</li>
+                <li>DCS/SDCD</li>
+                <li>SCADA</li>
+                <li>HMI/IHM</li>
+                <li>Instrumentação</li>
+                <li>Sistemas BMS</li>
+                <li>Integração de equipamentos</li>
+                <li>Controle de processos</li>
+                <li>Lógica e intertravamentos</li>
+                <li>Redes industriais</li>
+                <li>FAT e SAT</li>
+                <li>Startup e comissionamento</li>
+              </ul>
+            </div>
+            <div class="block">
+              <span class="label">Exemplos de aplicação</span>
+              <div class="chips"><span class="chip">Plantas de processo contínuo</span><span class="chip">Automação predial (BMS)</span><span class="chip">Retrofit de sistemas de controle</span></div>
+            </div>
+            <div class="block">
+              <span class="label">Tecnologias</span>
+              <div class="chips"><span class="tag">Siemens PCS neo</span><span class="tag">PCS 7</span><span class="tag">Siemens S7</span><span class="tag">Rockwell</span><span class="tag">Niagara 4</span><span class="tag">OPC UA</span><span class="tag">PROFINET</span><span class="tag">Modbus</span><span class="tag">BACnet</span></div>
+            </div>
+            <div class="sol-actions">
+              <a href="#contato" class="btn btn-primary btn-sm" data-area="Automação Industrial">Solicitar proposta técnica</a>
+            </div>
+          </div>
+        </article>
+        <article class="sol-panel" id="painel-renovaveis" role="tabpanel" aria-labelledby="tab-renovaveis" hidden>
+          <div class="sol-media">
+            <picture><source srcset="images/energy_solution_card_v2.webp" type="image/webp"><img src="images/energy_solution_card_v2.jpg" alt="Energias Renováveis" loading="lazy" /></picture>
+            <div class="sol-media-overlay"></div>
+            <div class="sol-media-title"><span>03</span><h3>Energias Renováveis</h3></div>
+          </div>
+          <div class="sol-body">
+            <p class="sol-desc">Engenharia para aproveitamento energético de resíduos e eficiência energética, de estudos de viabilidade a projetos e integração de sistemas para propriedades rurais e indústrias.</p>
+            <div class="block">
+              <span class="label">Serviços</span>
+              <ul class="sol-services">
+                <li>Engenharia de plantas de biogás</li>
+                <li>Estudos de viabilidade</li>
+                <li>Sistemas de biodigestão</li>
+                <li>Projetos para pequenas propriedades rurais</li>
+                <li>Aproveitamento energético de resíduos</li>
+                <li>Tratamento de biogás</li>
+                <li>Integração de upgrading de biometano</li>
+                <li>Sistemas associados à compressão</li>
+                <li>Eficiência energética</li>
+                <li>Energia solar fotovoltaica</li>
+                <li>Diagnósticos e estudos energéticos</li>
+              </ul>
+            </div>
+            <div class="block">
+              <span class="label">Exemplos de aplicação</span>
+              <div class="chips"><span class="chip">Propriedades rurais</span><span class="chip">Agroindústria</span><span class="chip">Diagnóstico energético industrial</span></div>
+            </div>
+            <p class="sol-note">A Holtz Soluções atua em estudos, projetos e integração. Fabricação de biodigestores e equipamentos e serviços de montagem são realizados por fornecedores e parceiros.</p>
+            <div class="sol-actions">
+              <a href="#contato" class="btn btn-primary btn-sm" data-area="Energias Renováveis">Solicitar proposta técnica</a>
+            </div>
+          </div>
+        </article>
+        <article class="sol-panel" id="painel-software" role="tabpanel" aria-labelledby="tab-software" hidden>
+          <div class="sol-media">
+            <div class="sol-media-visual sol-media--software" aria-hidden="true">
+              <svg viewBox="0 0 200 200" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Software e tecnologia industrial">
+                <defs>
+                  <linearGradient id="softGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#8B1A1A" stop-opacity="0.15"/>
+                    <stop offset="100%" stop-color="#0d1b2a" stop-opacity="0.15"/>
+                  </linearGradient>
+                </defs>
+                <rect x="10" y="10" width="180" height="180" rx="16" fill="url(#softGrad)" stroke="#8B1A1A" stroke-width="1.5" stroke-opacity="0.3"/>
+                <g fill="none" stroke="#8B1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">
+                  <path d="M50 150 L50 70 Q50 50 70 50 L130 50 Q150 50 150 70 L150 130 Q150 150 130 150 L70 150 Q50 150 50 130 Z"/>
+                  <path d="M70 90 L130 90"/>
+                  <path d="M70 110 L110 110"/>
+                  <circle cx="100" cy="75" r="12" stroke-width="2.5" opacity="0.9"/>
+                  <path d="M100 75 L100 60" stroke-width="2"/>
+                </g>
+                <g fill="#8B1A1A" opacity="0.8">
+                  <circle cx="75" cy="75" r="3"/>
+                  <circle cx="100" cy="75" r="3"/>
+                  <circle cx="125" cy="75" r="3"/>
+                </g>
+              </svg>
+            </div>
+            <div class="sol-media-overlay"></div>
+            <div class="sol-media-title"><span>04</span><h3>Software e Tecnologia Industrial</h3></div>
+          </div>
+          <div class="sol-body">
+            <p class="sol-desc">Desenvolvimento de software para a operação industrial: monitoramento, gestão de manutenção e ativos, integração de dados e indicadores.</p>
+            <div class="block">
+              <span class="label">Serviços</span>
+              <ul class="sol-services">
+                <li>Software industrial</li>
+                <li>Sistemas web industriais</li>
+                <li>Plataformas SaaS</li>
+                <li>Gestão de manutenção</li>
+                <li>Gestão de ativos</li>
+                <li>Sistemas de monitoramento</li>
+                <li>Dashboards</li>
+                <li>Integração de dados industriais</li>
+                <li>APIs</li>
+                <li>Análise de dados e indicadores</li>
+              </ul>
+            </div>
+            <div class="block">
+              <span class="label">Exemplos de aplicação</span>
+              <div class="chips"><span class="chip">Painéis de operação</span><span class="chip">Indicadores de manutenção</span><span class="chip">Integração CLP/SCADA com sistemas web</span></div>
+            </div>
+            <div class="ativos">
+              <div class="ativos-text">
+                <div class="ativos-head"><strong>ATIVOS</strong><span class="badge">Em desenvolvimento</span></div>
+                <span>Produto próprio: plataforma de gestão de manutenção e ativos.</span>
+              </div>
+              <a href="#contato" class="link-light" data-area="Software Industrial">Acompanhar o lançamento</a>
+            </div>
+            <p class="sol-note">Hardware, IoT e sistemas embarcados: possibilidades futuras.</p>
+            <div class="sol-actions">
+              <a href="#contato" class="btn btn-primary btn-sm" data-area="Software Industrial">Solicitar proposta técnica</a>
+            </div>
+          </div>
+        </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUÇÕES INTEGRADAS -->
+    <section id="integradas" class="section section--navy">
+      <div class="container">
+        <div class="section-heading section-heading--wide">
+          <span class="section-tag section-tag--light">Soluções integradas</span>
+          <h2 class="section-title section-title--light">Várias disciplinas de engenharia no mesmo projeto.</h2>
+          <p class="section-intro section-intro--light">Áreas de aplicação em que as especialidades da Holtz Soluções atuam em conjunto, com integração das disciplinas conforme o escopo do projeto.</p>
+        </div>
+        <div class="int-grid">
+      <article class="int-card">
+        <h3>Energias renováveis</h3>
+        <p>Engenharia de processos e energia, automação, sistemas mecânicos, integração de equipamentos e monitoramento.</p>
+        <div class="int-pills"><span class="int-pill is-on">01 Mecânica</span><span class="int-pill is-on">02 Automação</span><span class="int-pill is-on">03 Energias renováveis</span><span class="int-pill is-on">04 Software</span></div>
+      </article>
+      <article class="int-card">
+        <h3>Instalações HVAC-R</h3>
+        <p>Engenharia térmica, redes de tubulação, automação, instrumentação e análise de desempenho.</p>
+        <div class="int-pills"><span class="int-pill is-on">01 Mecânica</span><span class="int-pill is-on">02 Automação</span><span class="int-pill is-on">03 Energias renováveis</span><span class="int-pill">04 Software</span></div>
+      </article>
+      <article class="int-card">
+        <h3>Instalações industriais</h3>
+        <p>Integração entre equipamentos, automação, sistemas de controle e softwares industriais.</p>
+        <div class="int-pills"><span class="int-pill is-on">01 Mecânica</span><span class="int-pill is-on">02 Automação</span><span class="int-pill">03 Energias renováveis</span><span class="int-pill is-on">04 Software</span></div>
+      </article>
+        </div>
+      </div>
+    </section>
+
+<!-- CONTATO -->
+    <section id="contato" class="section contact-section">
+      <div class="container contact">
+        <div class="contact-info">
+          <h2>Vamos conversar sobre o seu projeto.</h2>
+          <p>Descreva a demanda e a área de interesse. A engenharia retorna com uma análise técnica inicial.</p>
+          <div class="contact-direct">
+            <strong>Rafael Holtz</strong>
+            <a href="tel:+5551984688201"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 2h3l1.5 3.5-1.5 1a8 8 0 003.5 3.5l1-1.5L14 10v3a1 1 0 01-1 1C6 14 2 8 2 3a1 1 0 011-1z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>51 98468-8201</a>
+            <a href="mailto:rafael@holtzsolucoes.com.br"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="1" y="3" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M1 5l7 5 7-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>rafael@holtzsolucoes.com.br</a>
+            <a href="https://wa.me/5551984688201" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Falar com a engenharia pelo WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <form id="contact-form" class="form" novalidate>
+            <div class="form-head">
+              <strong>Solicitar proposta técnica</strong>
+            </div>
+            <div class="form-notice" role="status">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="#8B1A1A" stroke-width="2"/><path d="M12 8v4M12 16h.01" stroke="#8B1A1A" stroke-width="2" stroke-linecap="round"/></svg>
+              <strong>Formulário temporariamente indisponível</strong>
+              <p>Nenhuma informação é enviada por este formulário. Para solicitar uma proposta, fale com a engenharia pelos canais diretos:</p>
+              <div class="form-notice-actions">
+                <a href="https://wa.me/5551984688201" target="_blank" rel="noopener" class="btn btn-primary btn-sm">WhatsApp: 51 98468-8201</a>
+                <a href="mailto:rafael@holtzsolucoes.com.br" class="btn btn-dark-outline btn-sm">E-mail: rafael@holtzsolucoes.com.br</a>
+              </div>
+            </div>
+            <div class="form-grid" aria-hidden="true">
+              <label class="field">
+                <span>Nome</span>
+                <input name="nome" type="text" placeholder="Seu nome" autocomplete="name" disabled />
+              </label>
+              <label class="field">
+                <span>Empresa</span>
+                <input name="empresa" type="text" placeholder="Nome da empresa" autocomplete="organization" disabled />
+              </label>
+              <label class="field">
+                <span>E-mail</span>
+                <input name="email" type="email" placeholder="voce@empresa.com.br" autocomplete="email" disabled />
+              </label>
+              <label class="field">
+                <span>Telefone</span>
+                <input name="telefone" type="tel" placeholder="(51) 90000-0000" autocomplete="tel" disabled />
+              </label>
+            </div>
+            <fieldset class="field" disabled aria-hidden="true">
+              <legend>Área de interesse</legend>
+              <div class="area-options">
+                <label class="area-opt"><input type="radio" name="area" value="Engenharia Mecânica e HVAC-R" disabled /><span>Engenharia Mecânica e HVAC-R</span></label>
+                <label class="area-opt"><input type="radio" name="area" value="Automação Industrial" disabled /><span>Automação Industrial</span></label>
+                <label class="area-opt"><input type="radio" name="area" value="Energias Renováveis" disabled /><span>Energias Renováveis</span></label>
+                <label class="area-opt"><input type="radio" name="area" value="Software Industrial" disabled /><span>Software Industrial</span></label>
+                <label class="area-opt"><input type="radio" name="area" value="Outros serviços" disabled /><span>Outros serviços</span></label>
+              </div>
+            </fieldset>
+            <label class="field">
+              <span>Descrição da demanda</span>
+              <textarea name="descricao" rows="4" placeholder="Contexto, escopo, prazos e o que você espera da engenharia" disabled></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary" id="form-submit" disabled aria-disabled="true">Formulário indisponível</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <a href="#inicio" class="logo footer-logo">
-          <img src="images/logo_holtz.png" alt="Holtz – Soluções em Automação e HVAC-R"
-            class="logo-img logo-img--footer" />
-        </a>
-        <p class="footer-tagline">Engenharia em HVAC-R, Automação e Controle Industrial</p>
+        <div class="footer-logo"><img src="images/logo_holtz.png" alt="Holtz Soluções" /></div>
+        <p>Engenharia Industrial, Energia e Tecnologia.</p>
       </div>
-      <div class="footer-nav">
+      <div class="footer-col">
+        <h4>Soluções</h4>
+        <ul>
+          <li><a href="#solucoes" data-tab="mecanica">Engenharia Mecânica, HVAC-R e Tubulação</a></li>
+          <li><a href="#solucoes" data-tab="automacao">Automação e Controle Industrial</a></li>
+          <li><a href="#solucoes" data-tab="renovaveis">Energias Renováveis</a></li>
+          <li><a href="#solucoes" data-tab="software">Software e Tecnologia Industrial</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
         <h4>Navegação</h4>
         <ul>
           <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre-mim">Quem sou eu</a></li>
+          <li><a href="#sobre">Sobre</a></li>
           <li><a href="#solucoes">Soluções</a></li>
-          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </div>
-      <div class="footer-contact">
+      <div class="footer-col">
         <h4>Contato</h4>
-        <p class="footer-contact-name">Rafael Holtz</p>
-        <p>
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M3 2h3l1.5 3.5-1.5 1a8 8 0 003.5 3.5l1-1.5L14 10v3a1 1 0 01-1 1C6 14 2 8 2 3a1 1 0 011-1z"
-              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-          <a href="tel:+5551984688201">51 98468-8201</a>
-        </p>
-        <p>
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <rect x="1" y="3" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.5" />
-            <path d="M1 5l7 5 7-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-          </svg>
-          <a href="mailto:rafael@holtzautomation.com.br">rafael@holtzautomation.com.br</a>
-        </p>
-      </div>
-      <div class="footer-badges">
-        <div class="badge-item">
-          <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
-            <circle cx="30" cy="30" r="28" stroke="#8B1A1A" stroke-width="2" /><text x="30" y="24" text-anchor="middle"
-              fill="#8B1A1A" font-size="7" font-weight="bold" font-family="Inter,sans-serif">CREA-RS</text><text x="30"
-              y="34" text-anchor="middle" fill="#333" font-size="5.5" font-family="Inter,sans-serif">Conselho
-              Regional</text><text x="30" y="42" text-anchor="middle" fill="#333" font-size="5.5"
-              font-family="Inter,sans-serif">de Engenharia</text>
-          </svg>
-        </div>
-        <div class="badge-item">
-          <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
-            <circle cx="30" cy="30" r="28" stroke="#1a3a5c" stroke-width="2" /><text x="30" y="26" text-anchor="middle"
-              fill="#1a3a5c" font-size="8" font-weight="bold" font-family="Inter,sans-serif">USGBC</text><text x="30"
-              y="38" text-anchor="middle" fill="#333" font-size="5.5" font-family="Inter,sans-serif">Green
-              Building</text><text x="30" y="46" text-anchor="middle" fill="#333" font-size="5.5"
-              font-family="Inter,sans-serif">Council</text>
-          </svg>
-        </div>
+        <ul>
+          <li><strong>Rafael Holtz</strong></li>
+          <li><a href="tel:+5551984688201">51 98468-8201</a></li>
+          <li><a href="mailto:rafael@holtzsolucoes.com.br">rafael@holtzsolucoes.com.br</a></li>
+          <li>Porto Alegre, RS · Brasil</li>
+        </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <div class="container footer-bottom-inner">
-        <p>Copyright &copy; 2026 Holtz – Soluções em Automação e HVAC-R. Todos os direitos reservados.</p>
-        <p>Desenvolvido por <a href="#" class="footer-dev">3B Comunicação e Marketing</a></p>
+        <p>Copyright © 2026 Holtz Soluções. Todos os direitos reservados.</p>
+        <p>Desenvolvido por 3B Comunicação e Marketing</p>
       </div>
     </div>
   </footer>
 
-  <!-- WhatsApp float -->
-  <a href="https://wa.me/5551984688201" target="_blank" id="whatsapp-float" class="whatsapp-float"
-    aria-label="Falar pelo WhatsApp">
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-      <path
-        d="M14 2C7.373 2 2 7.373 2 14c0 2.123.554 4.116 1.523 5.843L2 26l6.31-1.5A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z"
-        fill="white" />
-      <path
-        d="M19.5 17.2c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.89-.8-1.49-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.53.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.46s1.06 2.85 1.2 3.05c.15.2 2.08 3.18 5.04 4.46.7.3 1.25.48 1.68.62.7.22 1.34.19 1.85.12.56-.08 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.19-.57-.34z"
-        fill="#25D366" />
-    </svg>
+  <a href="https://wa.me/5551984688201" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Falar pelo WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 2C7.373 2 2 7.373 2 14c0 2.123.554 4.116 1.523 5.843L2 26l6.31-1.5A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/><path d="M19.5 17.2c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.89-.8-1.49-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.53.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.46s1.06 2.85 1.2 3.05c.15.2 2.08 3.18 5.04 4.46.7.3 1.25.48 1.68.62.7.22 1.34.19 1.85.12.56-.08 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.19-.57-.34z" fill="#25D366"/></svg>
   </a>
 
   <script src="script.js"></script>
 </body>
-
 </html>
